@@ -4,7 +4,7 @@ const {erro} = require("./mock/typerr")
 const {rejects,deepStrictEqual} = require("assert")
     ; //Using closure, when you call a built in function you must use semicolon
 (async ()=>{
-    /*{
+    {
         const filepath = "./../mock/empty-file.txt"
         const Expected=new Error(erro.EmptyFile)
         const file = File.showResult(filepath)
@@ -21,7 +21,7 @@ const {rejects,deepStrictEqual} = require("assert")
         const Expected=new Error(erro.WrongBody)
         const file = File.showResult(filepath)
         rejects(file,Expected)
-    }*/
+    }
     {
         const filepath = "./../mock/fileCorrect.txt"
         const Expected=[
